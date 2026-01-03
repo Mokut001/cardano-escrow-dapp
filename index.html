@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Cardano Escrow DApp</title>
+</head>
+
+<body>
+  <h2>Cardano Escrow DApp</h2>
+
+  <label>Beneficiary Wallet:</label>
+  <input id="beneficiary"><br><br>
+
+  <label>Deadline (POSIX):</label>
+  <input id="deadline"><br><br>
+
+  <label>Amount (ADA):</label>
+  <input id="amount"><br><br>
+
+  <button onclick="deposit()">Deposit</button>
+  <button onclick="claim()">Claim</button>
+  <button onclick="refund()">Refund</button>
+
+  <script src="lucid.min.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
